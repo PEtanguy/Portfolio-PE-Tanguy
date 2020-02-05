@@ -11,3 +11,106 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "./sphere";
+@import "./barly";
+@import "./particles";
+// @import "./color-change";
+// @import "./svg-lines";
+
+$darkestblue: #000d38;
+$darkblue: #2c3054;
+
+body {
+  font-family: 'Quicksand', sans-serif;  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  background-color:#04002e;
+  background-color: $darkblue;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  color: white;
+  list-style-type: none;
+}
+.container {
+z-index:1;
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content:center;
+}
+
+.skills {
+  position: absolute;
+  top: 33%;
+  right: 34%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: space-around;
+  // background-color: $darkblue;
+  padding: 5%;
+}
+
+
+
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+h3 {
+  font-family: 'Work Sans', sans-serif;
+
+}
+}
+.name {
+  position: absolute;
+  z-index: 1;
+  right: 31%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+  color: white;
+  justify-content: center;
+}
+
+
+.details{
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 17%;
+  left: 39%;
+}
+
+.work {
+  // position: absolute;
+  z-index:1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  // flex-direction: column;
+  // top: 50%;
+  // color: white;
+  // width: 50%;
+}
+
+
